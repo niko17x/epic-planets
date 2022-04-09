@@ -1,0 +1,35 @@
+/*Index page*/
+
+body {
+    height: 100vh;
+}
+
+/*Section 1*/
+.section-1 {
+    background-color: rgb(32, 51, 255);
+    padding: 16px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+/*nav links.*/
+a {
+    text-decoration: none;
+    color: white;
+
+}
+.section-1-nav {
+    display: flex;
+    flex: 1;
+    gap: 15px;
+    justify-content: flex-end;
+    border: 2px solid black;
+    
+}
+.section-1-logo {
+    font-size: 35px;
+    color: white;
+    font-weight: bolder;
+    border: 2px solid black;
+    
+}
